@@ -1,5 +1,8 @@
-a=int(input())
-if(1<=a<=100000):
-  print("Positive")
+num = float(input("Enter a number: "))
+if num >= 0:
+   if num == 0:
+       print("Zero")
+   else:
+       print("Positive number")
 else:
-  print("Negative")
+   print("Negative number")
